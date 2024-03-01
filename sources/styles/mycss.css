@@ -3,6 +3,7 @@
 body {
     font-family: Michroma, serif;
     background: linear-gradient(93deg, #0407ce 0%, #000000 100%);
+    padding-right: 12px
 }
 
 p {
@@ -12,6 +13,15 @@ p {
 .nav-link {
     color: rgb(1, 178, 248);
 }
+
+.navbar-nav .nav-link:hover {
+    color: rgb(1, 178, 248);
+    background-color: rgb(53, 51, 51);
+}
+
+.nav-link.dropdown-toggle {
+    color: rgb(1, 178, 248);
+}   
 
 .navbar-nav .nav-link.active {
     color: aqua;
@@ -23,14 +33,31 @@ p {
 
 .dropdown-menu li {
     display: flex;
-    margin-left: 1px;
+}
+
+a.dropdown-item {
+    font-size: 16px
+}
+
+a.dropdown-item:hover {
+    background-color: aqua;
 }
 
 .dropdown-menu img {
     float: left;
 }
 
+.dropdown-menu {
+    background-color: rgba(1, 178, 248, 0.658);
+}
+
 .navbar-toggler {
+    background-color: rgb(1, 178, 248);
+}
+
+.btn.btn-outline-success {
+    border: none;
+    color: #000000;
     background-color: rgb(1, 178, 248);
 }
 
@@ -48,6 +75,11 @@ p {
     text-decoration: none;
     color: rgb(1, 178, 248);
 }
+
+.carousel-indicators {
+    margin-bottom: -2em;
+}
+
 
 footer, 
 .btn-outline-primary {
@@ -70,6 +102,15 @@ footer,
 
 .call-anim {
     animation: call 2s ease 0s infinite normal forwards;
+}
+
+.button-down {
+    justify-content: center;
+    margin-top: 35px; 
+}
+
+.call-anim {
+    margin: 15px;
 }
 
 @keyframes call {
