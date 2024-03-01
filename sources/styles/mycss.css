@@ -114,14 +114,6 @@ footer,
     margin: 15px;
 }
 
-.carousel-control-next {
-    margin-right: 500px;
-}
-
-.carousel-control-prev {
-    margin-left: -30px;
-}
-
 @keyframes call {
     0% {
         transform: scale(1);
