@@ -21,13 +21,13 @@ p {
 
 .nav-link.dropdown-toggle {
     color: rgb(1, 178, 248);
-}   
+}
 
 .navbar-nav .nav-link.active {
     color: aqua;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     width: 100px;
 }
 
@@ -81,11 +81,12 @@ a.dropdown-item:hover {
 }
 
 
-footer, 
+footer,
 .btn-outline-primary {
     background: linear-gradient(270deg, #0407ce 0%, #000000 100%);
 }
-.slide-text, 
+
+.slide-text,
 .footer-text {
     color: rgb(1, 178, 248);
     /* по x и по y зададим центральное
@@ -106,25 +107,33 @@ footer,
 
 .button-down {
     justify-content: center;
-    margin-top: 35px; 
+    margin-top: 35px;
 }
 
 .call-anim {
     margin: 15px;
 }
 
+.carousel-control-next {
+    margin-right: 500px;
+}
+
+.carousel-control-prev {
+    margin-left: -30px;
+}
+
 @keyframes call {
-	0% {
-		transform: scale(1);
-	}
+    0% {
+        transform: scale(1);
+    }
 
-	50% {
-		transform: scale(1.1);
-	}
+    50% {
+        transform: scale(1.1);
+    }
 
-	100% {
-		transform: scale(1);
-	}
+    100% {
+        transform: scale(1);
+    }
 }
 
 
